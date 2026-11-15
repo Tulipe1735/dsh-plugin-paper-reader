@@ -453,7 +453,7 @@ async function handleRequest(ctx, store, origin, req, res) {
           root: store.root,
           count: library.papers.length,
           plugin: PLUGIN_ID,
-          version: '0.1.0',
+          version: '0.2.0',
           model: safeModel(ctx),
           clientLoadedAt,
           clientLoadedInfo,
