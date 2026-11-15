@@ -1,7 +1,7 @@
 # dsh-plugin-paper-reader
 
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-plugin-4f6bed)](https://github.com/deepseek-ai/deepseek-harness)
-[![DSH Marketplace](https://img.shields.io/badge/DSH%20Marketplace-submitted-blue)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+[![DSH Marketplace](https://img.shields.io/badge/DSH%20Marketplace-PR%20%2315612-blue)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/15612)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 **给 DeepSeek Harness 用的 Zotero 式阅读库。** 把论文、技术博客、文档和长文放在同一个书架里；左边英文原文、右边简体中文对照，**共用一个滚动条**；右侧还能让 DSH 的模型基于正文回答问题。
@@ -59,7 +59,7 @@ dsh plugin --profile web add github:Tulipe1735/dsh-plugin-paper-reader
 
 ### 从插件市场安装
 
-已提交到 [Awesome DeepSeek Harness Plugins](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 精选列表。合并后可在 DSH 的插件市场搜索 **dsh-plugin-paper-reader** 安装。
+已提交到 [Awesome DeepSeek Harness Plugins](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 精选列表：[PR #15612](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/15612)。合并后可在 DSH 的插件市场搜索 **dsh-plugin-paper-reader** 安装。
 
 ### 本地开发
 

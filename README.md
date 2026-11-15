@@ -1,7 +1,7 @@
 # dsh-plugin-paper-reader
 
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-plugin-4f6bed)](https://github.com/deepseek-ai/deepseek-harness)
-[![DSH Marketplace](https://img.shields.io/badge/DSH%20Marketplace-submitted-blue)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+[![DSH Marketplace](https://img.shields.io/badge/DSH%20Marketplace-PR%20%2315612-blue)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/15612)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 **A Zotero-like reading library for DeepSeek Harness.** Keep papers, tech blogs, docs and long reads on one shelf; read the English original on the left and a Simplified-Chinese translation on the right in **one shared scrollbar**; ask a chat rail that sees the text.
@@ -59,7 +59,7 @@ Use `--profile desktop` instead of `web` for the desktop profile. The repository
 
 ### From the marketplace
 
-Submitted to the [Awesome DeepSeek Harness Plugins](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) list. Once merged, search for **dsh-plugin-paper-reader** in DSH's plugin marketplace and install it there.
+Submitted to the [Awesome DeepSeek Harness Plugins](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) list in [PR #15612](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/15612). Once merged, search for **dsh-plugin-paper-reader** in DSH's plugin marketplace and install it there.
 
 ### Local development
 
