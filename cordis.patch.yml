@@ -1,0 +1,4 @@
+# dsh-plugin-paper-reader: inserts the paper reader bundle into a profile's layer stack.
+- insert:
+    - id: dsh-plugin-paper-reader
+      name: 'dsh-plugin-paper-reader'

@@ -1,0 +1,84 @@
+{
+  "name": "dsh-plugin-paper-reader",
+  "version": "0.2.0",
+  "private": false,
+  "type": "module",
+  "description": "A Zotero-like reading library inside DeepSeek Harness: papers, tech blogs and long reads, English/Chinese parallel reading, inline code/images, demo snapshots, and a DSH-model chat rail.",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "lib/**",
+    "src/**",
+    "scripts/**",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/ui.smoke.mjs",
+    "test:extract": "node tests/extract.test.mjs pdf"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "linkedom": "^0.18.11",
+    "pdfjs-dist": "^4.10.38"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.10",
+    "happy-dom": "^21.0.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-llm": "*"
+  },
+  "author": "Tulipe1735",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "paper-reader",
+    "zotero",
+    "bilingual",
+    "translation",
+    "arxiv",
+    "pdf",
+    "tech-blog",
+    "reader",
+    "阅读器",
+    "论文"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tulipe1735/dsh-plugin-paper-reader.git"
+  },
+  "homepage": "https://github.com/Tulipe1735/dsh-plugin-paper-reader#readme",
+  "bugs": {
+    "url": "https://github.com/Tulipe1735/dsh-plugin-paper-reader/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
