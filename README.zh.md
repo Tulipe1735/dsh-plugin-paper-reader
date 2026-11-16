@@ -59,7 +59,7 @@ dsh plugin --profile web add github:Tulipe1735/dsh-plugin-paper-reader
 
 ### 从插件市场安装
 
-已提交到 [Awesome DeepSeek Harness Plugins](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 精选列表：[PR #15612](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/15612)。合并后可在 DSH 的插件市场搜索 **dsh-plugin-paper-reader** 安装。
+在 DSH 的插件市场搜索 **dsh-plugin-paper-reader** 安装。
 
 ### 本地开发
 
